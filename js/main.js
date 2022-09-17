@@ -27,11 +27,31 @@
                 self.counter();
                 self.projectFilter();
                 self.serviceSlider();
-                self.testimonails();
-
-
+               
+                self.galleriesFlex();
+                self.popupImage();
+                self.team();
             });
   
+        },
+        popupImage: function() {
+            if ($().magnificPopup) {
+                $('.wprt-galleries, .wprt-galleries-grid').each(function () {
+                    console.log($(this).find('.zoom'))
+
+                    $(this).find('.zoom').magnificPopup({
+                        disableOn: 700,
+                        type: 'image',
+                        gallery:{
+                            enabled: true
+                        },
+                        mainClass: 'mfp-fade',
+                        removalDelay: 160,
+                        preloader: false,
+                        fixedContentPos: true
+                    });
+                });
+            }
         },
         preLoader: function() {
             if ( $().animsition ) {
@@ -150,6 +170,9 @@
                 });
             });
         },
+
+
+
         spacer: function() {
             $(window).on('load resize', function() {
                 $('.wprt-spacer').each(function(){
@@ -225,8 +248,8 @@
                 }); //counter
             }
         },
-        testimonails: function() {
-            $('.wprt-testimonials').each(function() {
+        team: function() {
+            $('.wprt-team').each(function() {
                 var
                 $this = $(this),
                 item = $this.data("column"),
@@ -235,7 +258,7 @@
                 item4 = $this.data("column4"),
                 gapV = Number($this.data("gapv"));
 
-                $(this).find('#testimonials-wrap').cubeportfolio({
+                $(this).find('#team-wrap').cubeportfolio({
                     layoutMode: 'slider',
                     defaultFilter: '*',
                     animationType: 'quicksand',
@@ -262,9 +285,36 @@
                         width: 320,
                         cols: item4
                     }],
-                    caption: ' ',
+                    caption: 'pushTop',
                     displayType: 'bottomToTop',
                     displayTypeSpeed: 100
+                });
+            });
+        },
+        galleriesFlex: function() {
+            $('.wprt-galleries').each(function(){
+                var itemW = $(this).data("width");
+                var itemM = $(this).data("margin");
+
+                $(this).children('#wprt-carousel').flexslider({
+                    animation: "slide",
+                    controlNav: false,
+                    animationLoop: false,
+                    slideshow: false,
+                    itemWidth: itemW,
+                    itemMargin: itemM,
+                    asNavFor: $(this).children('#wprt-slider'),
+                    prevText: '<i class="fa fa-angle-left"></i>',
+                    nextText: '<i class="fa fa-angle-right"></i>'
+                });
+                $(this).children('#wprt-slider').flexslider({
+                    animation: "slide",
+                    controlNav: false,
+                    animationLoop: false,
+                    slideshow: false,
+                    sync: $(this).children('#wprt-carousel'),
+                    prevText: '<i class="fa fa-angle-left"></i>',
+                    nextText: '<i class="fa fa-angle-right"></i>'
                 });
             });
         },
@@ -317,12 +367,12 @@ function translatePage() {
       const key = element.getAttribute("data-i18n-key");
 
 
-      console.log(element.getAttribute)
+     
       const translation = translations[key];
       element.innerHTML = translation;
       if (element.tagName == 'INPUT') {
           element.setAttribute('placeholder', translation )
-          console.log(element.hasAttribute('placeholder'))
+          
            } else{
             element.innerHTML = translation;
            }

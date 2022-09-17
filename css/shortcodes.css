@@ -2298,6 +2298,10 @@ body[dir="rtl"] .wprt-icon-box.icon-left.accent-background .content-wrap {
 
 /* Service
 -------------------------------------------------------------- */
+.service-item {
+    margin-bottom: 50px;
+}
+
 .service-item .title {
     margin: 0 0 8px;
 }
@@ -2307,7 +2311,7 @@ body[dir="rtl"] .wprt-icon-box.icon-left.accent-background .content-wrap {
 }
 
 .service-item .desc {
-    margin: 0 0 20px;
+    margin: 0 0 10px;
 }
 
 .service-item-wrap {

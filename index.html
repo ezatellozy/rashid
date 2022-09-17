@@ -6,129 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rashid</title>
 
-    <link rel="stylesheet" href="css/cubeportfolio.min.css" />
-
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/main.css" />
-    <link rel="stylesheet" href="css/all.min.css" />
-    <link rel="stylesheet" href="css/layers.css" />
-    <link rel="stylesheet" href="css/navigation.css" />
+
     <link rel="stylesheet" href="css/settings.css" media="screen" />
   </head>
-  <body>
-    <div
-      class="modal fade services-modal"
-      id="exampleModal"
-      tabindex="-1"
-      aria-labelledby="exampleModalLabel"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button
-              type="button"
-              class="btn"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-            >
-              <i class="fa-solid fa-xmark"></i>
-            </button>
-          </div>
-          <div class="modal-body">
-            <div class="image-container">
-              <img
-                src="images/projects/4.jpg"
-                class="img-fluid"
-                alt="services"
-              />
-            </div>
-            <div class="info">
-              <h2 data-i18n-key="Menu Industry"></h2>
-              <div class="description" data-i18n-key="Menu Industry Desc"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div
-      class="modal fade services-modal"
-      id="exampleModal1"
-      tabindex="-1"
-      aria-labelledby="exampleModalLabel1"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button
-              type="button"
-              class="btn"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-            >
-              <i class="fa-solid fa-xmark"></i>
-            </button>
-          </div>
-          <div class="modal-body">
-            <div class="image-container">
-              <img
-                src="images/projects/7.jpg"
-                class="img-fluid"
-                alt="services"
-              />
-            </div>
-            <div class="info">
-              <h2
-                data-i18n-key="Building management and operating systems"
-              ></h2>
-              <div
-                class="description"
-                data-i18n-key="Building management and operating systems Desc"
-              ></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div
-      class="modal fade services-modal"
-      id="exampleModal3"
-      tabindex="-1"
-      aria-labelledby="exampleModalLabel3"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button
-              type="button"
-              class="btn"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-            >
-              <i class="fa-solid fa-xmark text-dark"></i>
-            </button>
-          </div>
-          <div class="modal-body">
-            <div class="image-container">
-              <img
-                src="images/projects/10.jpeg"
-                class="img-fluid"
-                alt="services"
-              />
-            </div>
-            <div class="info">
-              <h2 data-i18n-key="Menu management"></h2>
-              <div
-                class="description"
-                data-i18n-key="Menu management Desc"
-              ></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+  <body class="header-style-5">
     <div id="wrapper" class="animsition">
       <div id="site-header-wrap">
         <div id="top-bar" class="style-2">
@@ -196,7 +79,7 @@
                   0012954181
                 </a>
 
-                <a href="mailto:info@weshakers.com" class="text-white">
+                <a href="mailto:rashed@rashed-office.com" class="text-white">
                   <i class="fa fa-envelope"></i>
                   rashed@rashed-office.com
                 </a>
@@ -237,15 +120,16 @@
                     </a>
                   </li>
                   <li class="menu-item">
-                    <a href="#services" data-i18n-key="services">
+                    <a href="/services.html" data-i18n-key="services">
                       services
                     </a>
                   </li>
 
                   <li class="menu-item">
-                    <a href="#testimonials" data-i18n-key="OUR CLIENTS">
-                      OUR CLIENTS
-                    </a>
+                    <a href="#testimonials" data-i18n-key="OUR CLIENTS"></a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="#services" data-i18n-key="Our Values"></a>
                   </li>
                   <li class="menu-item">
                     <a href="#contact-us" data-i18n-key="Contact">Contact</a>
@@ -368,7 +252,7 @@
             <div class="col-lg-8">
               <div style="height: 8px;"></div>
               <h2
-                data-i18n-key="visionDesc"
+                data-i18n-key="promotion"
                 class="text-white text-center-mobile font-size-20 margin-bottom-0"
               ></h2>
               <div style="height: 20px;"></div>
@@ -496,6 +380,20 @@
                   </div>
                 </div>
               </div>
+              <div
+                class="wprt-spacer"
+                data-desktop="70"
+                data-mobi="60"
+                data-smobi="60"
+                style="height: 70px;"
+              ></div>
+              <a
+                href="about.html"
+                class="wprt-button small rounded-3px"
+                data-i18n-key="more"
+              >
+                READ MORE
+              </a>
             </div>
 
             <div class="col-lg-6">
@@ -518,11 +416,97 @@
                 data-smobi="40"
                 style="height: 50px;"
               ></div>
-              <!-- style="width: 100%;" -->
-              <video width="100%" controls poster="/images/videoPoster.jpeg">
-                <source src="../images/aboutus.mp4" type="video/mp4" />
-                Your browser does not support the video tag.
-              </video>
+              <div
+                class="wprt-galleries galleries w-570px"
+                data-width="135"
+                data-margin="10"
+                style="direction: ltr;"
+              >
+                <div id="wprt-slider" class="flexslider">
+                  <div class="flex-viewport">
+                    <ul class="slides">
+                      <li class="flex-active-slide">
+                        <!-- <a class="zoom" href="images/gallery/1.jpeg">
+                          <i class="fa fa-arrows-alt"></i>
+                        </a> -->
+                        <img
+                          src="images/gallery/1.jpeg"
+                          alt="image"
+                          draggable="false"
+                        />
+                      </li>
+
+                      <li class="">
+                        <!-- <a class="zoom" href="images/gallery/2.jpeg">
+                          <i class="fa fa-arrows-alt"></i>
+                        </a> -->
+                        <img
+                          src="images/gallery/2.jpeg"
+                          alt="image"
+                          draggable="false"
+                        />
+                      </li>
+
+                      <li>
+                        <!-- <a class="zoom" href="images/gallery/3.jpeg">
+                          <i class="fa fa-arrows-alt"></i>
+                        </a> -->
+                        <img
+                          src="images/gallery/3.jpeg"
+                          alt="image"
+                          draggable="false"
+                        />
+                      </li>
+
+                      <li class="">
+                        <!-- <a class="zoom" href="images/gallery/4.jpeg">
+                          <i class="fa fa-arrows-alt"></i>
+                        </a> -->
+                        <img
+                          src="images/gallery/4.jpeg"
+                          alt="image"
+                          draggable="false"
+                        />
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div id="wprt-carousel" class="flexslider">
+                  <div class="flex-viewport">
+                    <ul class="slides">
+                      <li class="flex-active-slide">
+                        <img
+                          src="images/gallery/1.jpeg"
+                          alt="image"
+                          draggable="false"
+                        />
+                      </li>
+                      <li>
+                        <img
+                          src="images/gallery/2.jpeg"
+                          alt="image"
+                          draggable="false"
+                        />
+                      </li>
+                      <li>
+                        <img
+                          src="images/gallery/3.jpeg"
+                          alt="image"
+                          draggable="false"
+                        />
+                      </li>
+                      <li>
+                        <img
+                          src="images/gallery/4.jpeg"
+                          alt="image"
+                          draggable="false"
+                        />
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
             </div>
 
             <div class="col-lg-12">
@@ -613,7 +597,7 @@
                       <div class="project-item">
                         <div class="inner">
                           <figure class="effect-honey">
-                            <img src="images/projects/2.jpeg" alt="image" />
+                            <img src="images/projects/2.jpg" alt="image" />
                             <figcaption>
                               <div>
                                 <h2 data-i18n-key="Quality at work">
@@ -625,7 +609,7 @@
 
                           <a
                             class="project-zoom cbp-lightbox"
-                            href="images/projects/2.jpeg"
+                            href="images/projects/2.jpg"
                             data-title="Quality at work"
                           >
                             <i class="fa fa-arrows-alt"></i>
@@ -639,7 +623,7 @@
                       <div class="project-item">
                         <div class="inner">
                           <figure class="effect-honey">
-                            <img src="images/projects/3.jpeg" alt="image" />
+                            <img src="images/projects/3.jpg" alt="image" />
                             <figcaption>
                               <div>
                                 <h2 data-i18n-key="Redesign your kitchen">
@@ -651,7 +635,7 @@
 
                           <a
                             class="project-zoom cbp-lightbox"
-                            href="images/projects/3.jpeg"
+                            href="images/projects/3.jpg"
                             data-title="Redesign your kitchen"
                           >
                             <i class="fa fa-arrows-alt"></i>
@@ -720,7 +704,7 @@
                       <div class="project-item">
                         <div class="inner">
                           <figure class="effect-honey">
-                            <img src="images/projects/6.jpeg" alt="image" />
+                            <img src="images/projects/6.jpg" alt="image" />
                             <figcaption>
                               <div>
                                 <h2
@@ -735,7 +719,7 @@
 
                           <a
                             class="project-zoom cbp-lightbox"
-                            href="images/projects/6.jpeg"
+                            href="images/projects/6.jpg"
                             data-title=" We create the menu with international standards"
                           >
                             <i class="fa fa-arrows-alt"></i>
@@ -749,7 +733,7 @@
                       <div class="project-item">
                         <div class="inner">
                           <figure class="effect-honey">
-                            <img src="images/projects/7.jpg" alt="image" />
+                            <img src="images/projects/7.jpeg" alt="image" />
                             <figcaption>
                               <div>
                                 <h2 data-i18n-key="Quality at work">
@@ -761,138 +745,8 @@
 
                           <a
                             class="project-zoom cbp-lightbox"
-                            href="images/projects/7.jpg"
+                            href="images/projects/7.jpeg"
                             data-title="Quality at work"
-                          >
-                            <i class="fa fa-arrows-alt"></i>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="cbp-item">
-                    <div class="cbp-item-wrapper">
-                      <div class="project-item">
-                        <div class="inner">
-                          <figure class="effect-honey">
-                            <img src="images/projects/8.jpeg" alt="image" />
-                            <figcaption>
-                              <div>
-                                <h2 data-i18n-key="Redesign your kitchen">
-                                  Redesign your kitchen
-                                </h2>
-                              </div>
-                            </figcaption>
-                          </figure>
-
-                          <a
-                            class="project-zoom cbp-lightbox"
-                            href="images/projects/8.jpeg"
-                            data-title="Redesign your kitchen"
-                          >
-                            <i class="fa fa-arrows-alt"></i>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="cbp-item">
-                    <div class="cbp-item-wrapper">
-                      <div class="project-item">
-                        <div class="inner">
-                          <figure class="effect-honey">
-                            <img src="images/projects/9.jpg" alt="image" />
-                            <figcaption>
-                              <div>
-                                <h2 data-i18n-key="High quality items">
-                                  High quality items
-                                </h2>
-                              </div>
-                            </figcaption>
-                          </figure>
-
-                          <a
-                            class="project-zoom cbp-lightbox"
-                            href="images/projects/9.jpg"
-                            data-title="High quality items"
-                          >
-                            <i class="fa fa-arrows-alt"></i>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="cbp-item">
-                    <div class="cbp-item-wrapper">
-                      <div class="project-item">
-                        <div class="inner">
-                          <figure class="effect-honey">
-                            <img src="images/projects/10.jpeg" alt="image" />
-                            <figcaption>
-                              <div>
-                                <h2 data-i18n-key="Design 2D diagram">
-                                  Design 2D diagram
-                                </h2>
-                              </div>
-                            </figcaption>
-                          </figure>
-
-                          <a
-                            class="project-zoom cbp-lightbox"
-                            href="images/projects/10.jpeg"
-                            data-title="Design 2D diagram"
-                          >
-                            <i class="fa fa-arrows-alt"></i>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="cbp-item">
-                    <div class="cbp-item-wrapper">
-                      <div class="project-item">
-                        <div class="inner">
-                          <figure class="effect-honey">
-                            <img src="images/projects/11.jpeg" alt="image" />
-                            <figcaption>
-                              <div>
-                                <h2 data-i18n-key="Design 2D diagram">
-                                  Design 2D diagram
-                                </h2>
-                              </div>
-                            </figcaption>
-                          </figure>
-
-                          <a
-                            class="project-zoom cbp-lightbox"
-                            href="images/projects/11.jpeg"
-                            data-title="Design 2D diagram"
-                          >
-                            <i class="fa fa-arrows-alt"></i>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="cbp-item">
-                    <div class="cbp-item-wrapper">
-                      <div class="project-item">
-                        <div class="inner">
-                          <figure class="effect-honey">
-                            <img src="images/projects/12.jpeg" alt="image" />
-                            <figcaption>
-                              <div>
-                                <h2 data-i18n-key="Design 2D diagram">
-                                  Design 2D diagram
-                                </h2>
-                              </div>
-                            </figcaption>
-                          </figure>
-
-                          <a
-                            class="project-zoom cbp-lightbox"
-                            href="images/projects/12.jpeg"
-                            data-title="Design 2D diagram"
                           >
                             <i class="fa fa-arrows-alt"></i>
                           </a>
@@ -916,17 +770,17 @@
           </div>
         </div>
       </section>
-      <section class="services" id="services">
+      <section class="services" id="ourvalues">
         <div class="container">
           <div class="row">
             <div class="col-lg-12">
               <div style="height: 60px;"></div>
-              <h2 class="title" data-i18n-key="MAIN SERVICES">MAIN SERVICES</h2>
+              <h2 class="title" data-i18n-key="Our Values">Our Values</h2>
 
               <div style="height: 40px;"></div>
             </div>
 
-            <div class="col-lg-4">
+            <div class="col-lg-6">
               <div
                 class="wprt-icon-box accent-background rounded icon-effect-2 icon-left"
               >
@@ -934,38 +788,13 @@
                   <i class="dd-icon fa-solid fa-handshake"></i>
                 </div>
                 <div class="content-wrap">
+                  <h2 data-i18n-key="service1 title"></h2>
                   <p data-i18n-key="service1"></p>
                 </div>
               </div>
             </div>
 
-            <div class="col-lg-4">
-              <div
-                class="wprt-icon-box accent-background rounded icon-effect-2 icon-left"
-              >
-                <div class="icon-wrap">
-                  <!-- <span class="dd-icon icon-engineer"></span> -->
-                  <i class="dd-icon fa-solid fa-compass-drafting"></i>
-                </div>
-                <div class="content-wrap">
-                  <p data-i18n-key="service2"></p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4">
-              <div
-                class="wprt-icon-box accent-background rounded icon-effect-2 icon-left"
-              >
-                <div class="icon-wrap">
-                  <span class="dd-icon fa-solid fa-microscope"></span>
-                </div>
-                <div class="content-wrap">
-                  <p data-i18n-key="service3"></p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4">
+            <div class="col-lg-6">
               <div
                 class="wprt-icon-box accent-background rounded icon-effect-2 icon-left"
               >
@@ -973,12 +802,13 @@
                   <span class="dd-icon fa-solid fa-feather"></span>
                 </div>
                 <div class="content-wrap">
-                  <p data-i18n-key="service4"></p>
+                  <h2 data-i18n-key="service2 title"></h2>
+                  <p data-i18n-key="service2"></p>
                 </div>
               </div>
             </div>
 
-            <div class="col-lg-4">
+            <div class="col-lg-6">
               <div
                 class="wprt-icon-box accent-background rounded icon-effect-2 icon-left"
               >
@@ -986,23 +816,13 @@
                   <span class="dd-icon icon-light-bulb"></span>
                 </div>
                 <div class="content-wrap">
-                  <p data-i18n-key="service5"></p>
+                  <h2 data-i18n-key="service3 title"></h2>
+                  <p data-i18n-key="service3"></p>
                 </div>
               </div>
             </div>
-            <div class="col-lg-4">
-              <div
-                class="wprt-icon-box accent-background rounded icon-effect-2 icon-left"
-              >
-                <div class="icon-wrap">
-                  <span class="dd-icon icon-pipe-11"></span>
-                </div>
-                <div class="content-wrap">
-                  <p data-i18n-key="service6"></p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4">
+
+            <div class="col-lg-6">
               <div
                 class="wprt-icon-box accent-background rounded icon-effect-2 icon-left"
               >
@@ -1010,18 +830,11 @@
                   <span class="dd-icon fa-solid fa-people-roof"></span>
                 </div>
                 <div class="content-wrap">
-                  <p data-i18n-key="service7"></p>
+                  <h2 data-i18n-key="service4 title"></h2>
+                  <p data-i18n-key="service4"></p>
                 </div>
               </div>
             </div>
-            <div class="col-lg-12">
-              <h2 class="title noafter">
-                "
-                <span data-i18n-key="abstract"></span>
-                "
-              </h2>
-            </div>
-
             <div class="col-lg-12">
               <div style="height: 60px;"></div>
             </div>
@@ -1072,48 +885,20 @@
                     <div class="cbp-item-wrapper">
                       <div class="service-item">
                         <div class="thumb">
-                          <img src="images/projects/4.jpg" alt="image" />
+                          <img src="images/location/4.jpeg" alt="image" />
                         </div>
                         <div class="service-item-wrap">
                           <h3
                             class="title text-accent-color font-size-18"
-                            data-i18n-key="Menu Industry"
+                            data-i18n-key="Riyadh"
                           ></h3>
                           <div
                             class="desc"
-                            data-i18n-key="Menu Industry Desc"
+                            data-i18n-key="Riyadh location"
                           ></div>
                           <a
-                            role="button"
-                            data-bs-toggle="modal"
-                            data-bs-target="#exampleModal"
-                            class="wprt-button small rounded-3px"
-                            data-i18n-key="read more"
-                          ></a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="cbp-item">
-                    <div class="cbp-item-wrapper">
-                      <div class="service-item">
-                        <div class="thumb">
-                          <img src="images/projects/7.jpg" alt="image" />
-                        </div>
-                        <div class="service-item-wrap">
-                          <h3
-                            class="title text-accent-color font-size-18"
-                            data-i18n-key="Building management and operating systems"
-                          ></h3>
-                          <div
-                            class="desc"
-                            data-i18n-key="Building management and operating systems Desc"
-                          ></div>
-                          <a
-                            role="button"
-                            data-bs-toggle="modal"
-                            data-bs-target="#exampleModal1"
+                            href="https://www.google.com/maps/place/24%C2%B046'40.3%22N+46%C2%B047'03.0%22E/@24.7778611,46.7841667,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x591e694cd75e0eb8!8m2!3d24.7778568!4d46.7841606?hl=en"
+                            target="_blank"
                             data-i18n-key="read more"
                             class="wprt-button small rounded-3px"
                           >
@@ -1123,26 +908,76 @@
                       </div>
                     </div>
                   </div>
-
                   <div class="cbp-item">
                     <div class="cbp-item-wrapper">
                       <div class="service-item">
                         <div class="thumb">
-                          <img src="images/projects/10.jpeg" alt="image" />
+                          <img src="images/location/1.jpeg" alt="image" />
                         </div>
                         <div class="service-item-wrap">
                           <h3
                             class="title text-accent-color font-size-18"
-                            data-i18n-key="Menu management"
+                            data-i18n-key="Jazan"
                           ></h3>
                           <div
                             class="desc"
-                            data-i18n-key="Menu management Desc"
+                            data-i18n-key="Jazan location"
                           ></div>
                           <a
-                            role="button"
-                            data-bs-toggle="modal"
-                            data-bs-target="#exampleModal3"
+                            href="https://www.google.com/maps?q=%D9%85%D9%83%D8%AA%D8%A8+%D9%86%D8%A8%D8%B1%D8%A7%D8%B3+%D8%AD%D8%A8%D9%88%D8%A9+%D9%84%D8%A5%D8%B3%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA+%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%D8%A9+%D8%A7%D9%84%D9%87%D9%86%D8%AF%D8%B3%D9%8A%D8%A9+-+%D9%81%D8%B1%D8%B9+%D8%AC%D8%A7%D8%B2%D8%A7%D9%86%D8%8C+%D8%B7%D8%B1%D9%8A%D9%82+%D8%A7%D9%84%D8%A3%D9%85%D9%8A%D8%B1+%D8%B3%D9%84%D8%B7%D8%A7%D9%86%D8%8C+%D8%AC%D8%A7%D8%B2%D8%A7%D9%86+82724&ftid=0x1607e3ee079c2c05:0x86587cb1dca17b04&hl=ar-SA&gl=sa&entry=gps&lucs=swa&shorturl=1"
+                            target="_blank"
+                            class="wprt-button small rounded-3px"
+                            data-i18n-key="read more"
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="cbp-item">
+                    <div class="cbp-item-wrapper">
+                      <div class="service-item">
+                        <div class="thumb">
+                          <img src="images/location/2.jpeg" alt="image" />
+                        </div>
+                        <div class="service-item-wrap">
+                          <h3
+                            class="title text-accent-color font-size-18"
+                            data-i18n-key="Dammam"
+                          ></h3>
+                          <div
+                            class="desc"
+                            data-i18n-key="Dammam location"
+                          ></div>
+                          <a
+                            href="https://www.google.com/maps?q=%D8%A3%D8%A8%D8%B1%D8%A7%D8%AC+%D8%A7%D9%84%D8%B4%D8%A7%D8%B7%D8%A6+A%D8%8C+%D8%A7%D9%84%D8%B4%D8%A7%D8%B7%D8%A6+%D8%A7%D9%84%D8%B4%D8%B1%D9%82%D9%8A%D8%8C+%D8%A7%D9%84%D8%AF%D9%85%D8%A7%D9%85+32413&ftid=0x3e49fbc2df171ef7:0xb1d40435e2b9e22d&hl=ar-SA&gl=sa&entry=gps&lucs=swa&shorturl=1"
+                            target="_blank"
+                            data-i18n-key="read more"
+                            class="wprt-button small rounded-3px"
+                          >
+                            READ MORE
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="cbp-item">
+                    <div class="cbp-item-wrapper">
+                      <div class="service-item">
+                        <div class="thumb">
+                          <img src="images/location/3.jpeg" alt="image" />
+                        </div>
+                        <div class="service-item-wrap">
+                          <h3
+                            class="title text-accent-color font-size-18"
+                            data-i18n-key="Jeddah"
+                          ></h3>
+                          <div
+                            class="desc"
+                            data-i18n-key="Jeddah location"
+                          ></div>
+                          <a
+                            href="https://www.google.com/maps/place/%D8%B4%D8%B1%D9%83%D8%A9+%D8%B3%D8%B9%D9%8A%D8%AF+%D8%A3%D8%AD%D9%85%D8%AF+%D8%A7%D9%84%D8%B9%D8%AC%D9%88+%D9%84%D9%84%D8%AA%D8%AC%D8%A7%D8%B1%D8%A9%E2%80%AD/@21.5378422,39.1781594,17z/data=!3m1!4b1!4m5!3m4!1s0x15c3cfdefde9887b:0x2a03116c2c4495f!8m2!3d21.5376334!4d39.1782058?hl=ar-SA"
+                            target="_blank"
                             data-i18n-key="read more"
                             class="wprt-button small rounded-3px"
                           >
@@ -1165,11 +1000,8 @@
                 style="height: 80px;"
               ></div>
             </div>
-            <!-- /.col-md-12 -->
           </div>
-          <!-- /.row -->
         </div>
-        <!-- /.container -->
       </section>
       <section class="wprt-section testiminials" id="testimonials">
         <div class="container">
@@ -1199,66 +1031,15 @@
                 style="height: 40px;"
               ></div>
 
-              <div class="wprt-partner-grid has-outline gutter-10">
+              <div
+                class="wprt-partner-grid has-outline gutter-10 col-9 mx-auto text-center"
+              >
                 <div class="partner-wrap">
-                  <div class="row">
-                    <div class="partner-item col-6 col-sm-4">
-                      <div class="inner-item">
-                        <h3>B4D</h3>
-                      </div>
-                    </div>
-                    <!-- /.partner-item -->
-
-                    <div class="partner-item col-6 col-sm-4 col">
-                      <div class="inner-item">
-                        <h3>HH Cafe</h3>
-                      </div>
-                    </div>
-
-                    <div class="partner-item col-6 col-sm-4">
-                      <div class="inner-item">
-                        <h3>BURGER CHAW</h3>
-                      </div>
-                    </div>
-
-                    <div class="partner-item col-6 col-sm-4">
-                      <div class="inner-item">
-                        <h3>BURGER 88</h3>
-                      </div>
-                    </div>
-                    <!-- /.partner-item -->
-
-                    <div class="partner-item col-6 col-sm-4 col">
-                      <div class="inner-item">
-                        <h3>CHKNESS</h3>
-                      </div>
-                    </div>
-
-                    <div class="partner-item col-6 col-sm-4">
-                      <div class="inner-item">
-                        <h3>UNO STEAK</h3>
-                      </div>
-                    </div>
-
-                    <div class="partner-item col-6 col-sm-4">
-                      <div class="inner-item">
-                        <h3>MASH BURGER</h3>
-                      </div>
-                    </div>
-                    <!-- /.partner-item -->
-
-                    <div class="partner-item col-6 col-sm-4 col">
-                      <div class="inner-item">
-                        <h3>TAKE BURGER</h3>
-                      </div>
-                    </div>
-
-                    <div class="partner-item col-6 col-sm-4">
-                      <div class="inner-item">
-                        <h3>BLEND BURGER</h3>
-                      </div>
-                    </div>
-                  </div>
+                  <p>
+                    <span>"</span>
+                    <span data-i18n-key="clients desc"></span>
+                    <span>"</span>
+                  </p>
                 </div>
               </div>
 
@@ -1270,104 +1051,6 @@
                 style="height: 40px;"
               ></div>
             </div>
-
-            <!-- <div class="col-md-6">
-              <h2 data-i18n-key="TESTIMONIALS">TESTIMONIALS</h2>
-              <div class="wprt-lines style-1 custom-3">
-                <div class="line-1"></div>
-                <div class="line-2"></div>
-              </div>
-              <div
-                class="wprt-spacer"
-                data-desktop="50"
-                data-mobi="40"
-                data-smobi="40"
-                style="height: 40px;"
-              ></div>
-
-              <div
-                class="wprt-testimonials has-outline arrow-style-2 has-arrows arrow60 arrow-light"
-                data-layout="slider"
-                data-column="1"
-                data-column2="1"
-                data-column3="1"
-                data-column4="1"
-                data-gaph="0"
-                data-gapv="0"
-              >
-                <div
-                  id="testimonials-wrap"
-                  class="cbp cbp-caption-active cbp-caption- cbp-ready cbp-mode-slider"
-                >
-                  <div class="cbp-item">
-                    <div class="cbp-item-wrapper">
-                      <div class="customer">
-                        <div class="inner">
-                          <div class="image">
-                            <img src="images/projects/1.jpeg" alt="image" />
-                          </div>
-                          <h4 class="name">DON PAULSON</h4>
-                          <div class="position">Architectural Co.</div>
-                          <blockquote class="whisper">
-                            Your efficient planning, scheduling, management, and
-                            supervision resulted in timely completion and a
-                            quality facility...Particularly refreshing was the
-                            spirit of cooperation demonstrated by your firm
-                            which served to minimize costly delays and contract
-                            modifications.
-                          </blockquote>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="cbp-item">
-                    <div class="cbp-item-wrapper">
-                      <div class="customer">
-                        <div class="inner">
-                          <div class="image">
-                            <img src="images/projects/2.jpg" alt="image" />
-                          </div>
-                          <h4 class="name">DON PAULSON</h4>
-                          <div class="position">Architectural Co.</div>
-                          <blockquote class="whisper">
-                            Your efficient planning, scheduling, management, and
-                            supervision resulted in timely completion and a
-                            quality facility...Particularly refreshing was the
-                            spirit of cooperation demonstrated by your firm
-                            which served to minimize costly delays and contract
-                            modifications.
-                          </blockquote>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="cbp-item">
-                    <div class="cbp-item-wrapper">
-                      <div class="customer">
-                        <div class="inner">
-                          <div class="image">
-                            <img src="images/projects/2.jpg" alt="image" />
-                          </div>
-                          <h4 class="name">DON PAULSON</h4>
-                          <div class="position">Architectural Co.</div>
-                          <blockquote class="whisper">
-                            Your efficient planning, scheduling, management, and
-                            supervision resulted in timely completion and a
-                            quality facility...Particularly refreshing was the
-                            spirit of cooperation demonstrated by your firm
-                            which served to minimize costly delays and contract
-                            modifications.
-                          </blockquote>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div> -->
-
             <div class="col-md-12">
               <div
                 class="wprt-spacer"
@@ -1380,17 +1063,6 @@
           </div>
         </div>
       </section>
-      <section style="height: 300px;">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3476.864999588968!2d47.97988530000001!3d29.3742418!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3fcf84eb1fc3c021%3A0xfcf0c77a0a9d4f9c!2sMaryam&#39;s%20Tower!5e0!3m2!1sen!2skw!4v1662823264706!5m2!1sen!2skw"
-          width="100%"
-          height="300"
-          style="border: 0;"
-          allowfullscreen=""
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-        ></iframe>
-      </section>
       <section class="wprt-section contact-us" id="contact-us">
         <div
           class="wprt-spacer"
@@ -1402,38 +1074,17 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-6">
-              <div class="wprt-information">
-                <h4 class="margin-bottom-15" data-i18n-key="CALL US">
-                  CALL US
-                </h4>
-
-                <ul class="style-2">
-                  <li class="address">
-                    <span class="hl" data-i18n-key="Address">Address</span>
-                    <span class="text">
-                      : Kuwait –Sharq Mubarak Alkabeer street Maryam tower –
-                      floor 15
-                    </span>
-                  </li>
-                  <li class="phone">
-                    <span class="hl" data-i18n-key="Phone Number">Phone</span>
-                    <span class="text">: 96566443447+</span>
-                  </li>
-                  <li class="email">
-                    <span class="hl" data-i18n-key="Email"></span>
-                    <span class="text">: info@weshakers.com</span>
-                  </li>
-                </ul>
+              <div class="wprt-information h-100">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7244.88930263794!2d46.785743838900736!3d24.780223302491006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x591e694cd75e0eb8!2zMjTCsDQ2JzQwLjMiTiA0NsKwNDcnMDMuMCJF!5e0!3m2!1sen!2seg!4v1663281214759!5m2!1sen!2seg"
+                  width="100%"
+                  height="100%"
+                  style="border: 0;"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
               </div>
-              <!-- /.wprt-information -->
-
-              <div
-                class="wprt-spacer"
-                data-desktop="0"
-                data-mobi="30"
-                data-smobi="30"
-                style="height: 30px;"
-              ></div>
             </div>
 
             <div class="col-lg-6">
@@ -1481,18 +1132,48 @@
                     />
                   </span>
 
-                  <span class="wpcf7-form-control-wrap message">
-                    <textarea
-                      name="message"
-                      tabindex="5"
-                      cols="40"
-                      rows="10"
-                      data-i18n-key="Message"
-                      class="wpcf7-form-control wpcf7-textarea"
-                      placeholder="Message"
-                      required=""
-                    ></textarea>
+                  <span class="wpcf7-form-control-wrap name">
+                    <select class="" aria-label="Default select example">
+                      <!-- <option selected>Open this select menu</option> -->
+                      <option
+                        value="1"
+                        selected
+                        data-i18n-key="region 1"
+                      ></option>
+                      <option value="1" data-i18n-key="region 2"></option>
+                      <option value="1" data-i18n-key="region 3"></option>
+                      <option value="1" data-i18n-key="region 4"></option>
+                      <option value="1" data-i18n-key="region 5"></option>
+                    </select>
                   </span>
+                  <span class="wpcf7-form-control-wrap email">
+                    <select class="" aria-label="Default select example">
+                      <option
+                        selected
+                        data-i18n-key="Choose the desired service from the list"
+                      ></option>
+                      <option value="1" data-i18n-key="service list 1"></option>
+                      <option value="1" data-i18n-key="service list 2"></option>
+                      <option value="1" data-i18n-key="service list 3"></option>
+                      <option value="1" data-i18n-key="service list 4"></option>
+                      <option value="1" data-i18n-key="service list 5"></option>
+                      <option value="1" data-i18n-key="service list 6"></option>
+                      <option value="1" data-i18n-key="service list 7"></option>
+                    </select>
+                  </span>
+                  <span class="wpcf7-form-control-wrap phone w-100">
+                    <input
+                      type="text"
+                      tabindex="3"
+                      id="Activity type"
+                      name="Activity type"
+                      value=""
+                      data-i18n-key="Activity type"
+                      class="wpcf7-form-control"
+                      placeholder="Activity type"
+                    />
+                  </span>
+
                   <div class="wrap-submit">
                     <button
                       type="submit"
@@ -1504,14 +1185,12 @@
                   </div>
                 </div>
               </form>
-            </div>
-            <div class="col-lg-12">
               <div
                 class="wprt-spacer"
-                data-desktop="80"
-                data-mobi="60"
-                data-smobi="60"
-                style="height: 80px;"
+                data-desktop="30"
+                data-mobi="10"
+                data-smobi="10"
+                style="height: 30px;"
               ></div>
             </div>
           </div>
@@ -1533,7 +1212,7 @@
                       class="margin-top-5 margin-bottom-25"
                     />
                   </div>
-                  <p data-i18n-key="visionDesc"></p>
+                  <p data-i18n-key="aboutUs desc" class="m-0"></p>
                 </div>
               </div>
             </div>
@@ -1548,7 +1227,7 @@
                     <a href="/" data-i18n-key="Home">Home</a>
                   </li>
                   <li class="style-2">
-                    <a href="#about-us" data-i18n-key="aboutUs">aboutUs</a>
+                    <a href="about.html" data-i18n-key="aboutUs">aboutUs</a>
                   </li>
                   <li class="style-2">
                     <a href="#FEATURED-WORK" data-i18n-key="FEATURED WORK">
@@ -1556,16 +1235,21 @@
                     </a>
                   </li>
                   <li class="style-2">
-                    <a href="#services" data-i18n-key="services">
+                    <a href="services.html" data-i18n-key="services">
                       services
                     </a>
                   </li>
-
                   <li class="style-2">
                     <a href="#testimonials" data-i18n-key="OUR CLIENTS">
                       OUR CLIENTS
                     </a>
                   </li>
+                  <li class="style-2">
+                    <a href="#ourvalues" data-i18n-key="Our Values">
+                      services
+                    </a>
+                  </li>
+
                   <li class="style-2">
                     <a href="#contact-us" data-i18n-key="Contact">Contact</a>
                   </li>
@@ -1581,18 +1265,14 @@
                 <ul class="style-2">
                   <li class="address clearfix">
                     <span class="hl" data-i18n-key="Address">Address:</span>
-                    <span class="text">
-                      Kuwait –Sharq Mubarak Alkabeer street Maryam tower – floor
-                      15
-                    </span>
+                    <div class="text" data-i18n-key="Riyadh location"></div>
                   </li>
-                  <li class="phone clearfix">
-                    <span class="hl" data-i18n-key="Phone Number">Phone:</span>
-                    <span class="text">96566443447+</span>
-                  </li>
-                  <li class="email clearfix">
+
+                  <li class="email">
                     <span class="hl" data-i18n-key="Email">E-mail:</span>
-                    <span class="text">info@weshakers.com</span>
+                    <a href="mailto:rashed@rashed-office.com">
+                      rashed@rashed-office.com
+                    </a>
                   </li>
                 </ul>
               </div>
@@ -1631,7 +1311,7 @@
         </div>
       </footer>
       <div class="whatsappBtn">
-        <a target="_blank" href="https://wa.me/96566443447">
+        <a target="_blank" href="https://wa.me/0112291000">
           <i class="fa-brands fa-whatsapp"></i>
         </a>
       </div>
@@ -1662,6 +1342,7 @@
     <script src="js/plugins/revolution.extension.actions.min.js"></script>
     <script src="js/plugins/revolution.extension.layeranimation.min.js"></script>
     <script src="js/animsition.js"></script>
+    <script src="js/flexslider.js"></script>
     <script src="js/countTo.js"></script>
     <script src="js/cube.portfolio.js"></script>
     <script src="js/main.js"></script>
