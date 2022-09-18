@@ -1,6 +1,6 @@
 /* Links */
 a {
-    color: #ffbc13;
+    color: #9A8A67;
     outline: 0;
     text-decoration: none;
     -webkit-transition: all ease .238s;
@@ -58,7 +58,7 @@ blockquote {
 }
 
 blockquote {
-    border: 2px solid #ffbc13;
+    border: 2px solid #9A8A67;
     font-style: italic;
     padding: 35px 30px;
 }
@@ -256,7 +256,7 @@ p.dropcap-contrast span.first-letter {
     font-size: 24px;
     float: left;
     color: white;
-    background-color: #ffbc13;
+    background-color: #9A8A67;
     text-align: center;
     vertical-align: middle;
     margin: 5px 10px 0 0;
@@ -271,7 +271,7 @@ p.dropcap-contrast span.first-letter {
 p.dropcap span.first-letter {
     font-size: 55px;
     float: left;
-    color: #ffbc13;
+    color: #9A8A67;
     text-align: left;
     line-height: 45px;
     margin-right: 18px;
