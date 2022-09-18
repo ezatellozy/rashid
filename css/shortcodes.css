@@ -1058,7 +1058,7 @@ body[dir="rtl"] .wprt-icon-box.icon-left.accent-background .content-wrap {
     font-size: 1.142em;
 }
 
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 992px) {
 
     .wprt-button,
     .wprt-button.big {
@@ -1706,7 +1706,7 @@ body[dir="rtl"] .wprt-icon-box.icon-left.accent-background .content-wrap {
     padding: 12% 30% 7.6% 10%;
 }
 
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 992px) {
     .wprt-content-box.style-1 {
         margin-top: 0;
         background-color: #4b4b4b;
@@ -2401,7 +2401,7 @@ body[dir="rtl"] .wprt-icon-box.icon-left.accent-background .content-wrap {
     font-size: 0.928em;
 }
 
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 992px) {
     .wprt-contact-form-1 .wpcf7-form-control.wpcf7-submit {
         padding: 1.08em 0;
         font-size: 0.928em;

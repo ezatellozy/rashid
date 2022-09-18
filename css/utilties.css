@@ -651,7 +651,7 @@ p.dropcap span.first-letter {
     }
 }
 
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 992px) {
     .font-size-25 {
         font-size: 18px;
     }
@@ -802,6 +802,7 @@ p.dropcap span.first-letter {
 
     #featured-title .featured-title-heading {
         font-size: 24px;
+        margin-bottom: 0;
     }
 
     .hentry .post-author {

@@ -110,7 +110,7 @@ h2.title::after {
 
 #featured-title .featured-title-inner-wrap {
     padding: 52px 0;
-
+    flex-wrap: wrap;
     overflow: hidden;
     width: 100%;
 }
@@ -316,7 +316,7 @@ h2.title::after {
 
 #main-nav>ul>li {
 
-    padding: 0 18px;
+    padding: 0 10px;
 }
 
 #main-nav>ul>li:last-child {
@@ -331,9 +331,21 @@ h2.title::after {
     text-transform: uppercase;
     transition: all 0.3s ease-in-out;
     font-family: "Montserrat";
-    font-size: 16px;
+    font-size: 13px;
     font-weight: 500;
 }
+
+@media(min-width:1200px) {
+    #main-nav>ul>li a {
+        font-size: 16px;
+    }
+
+    #main-nav>ul>li {
+
+        padding: 0 18px;
+    }
+}
+
 
 #main-nav ul>li.active>a,
 #main-nav ul>li>a:hover {

@@ -3939,7 +3939,7 @@ body.page #main-content {
 	}
 }
 
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 992px) {
 	.font-size-25 {
 		font-size: 18px;
 	}

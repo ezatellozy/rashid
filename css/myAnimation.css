@@ -1,0 +1,42 @@
+/*-----------------------------------------*/
+/* Animations
+  /*-----------------------------------------*/
+
+.has-animation {
+    animation-play-state: paused;
+}
+
+.animated[class*="in-view"] {
+    animation-fill-mode: both;
+}
+
+.animated {
+    animation-fill-mode: both;
+    animation-duration: 1s;
+    animation-play-state: running;
+}
+
+.animated[class*="in-view"].fade-in-up,
+.animated[class*="in-view"].fade-in-down {
+    animation-name: fade-in-up;
+    animation-delay: .5s;
+    animation-duration: 1s;
+}
+
+@keyframes fade-in-up {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
+
+
+/*  has-animation fade-in-up */
